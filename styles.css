@@ -1,0 +1,117 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    border: 8px solid white;
+    background-color: white;
+    border-radius: 20px;
+}
+
+img {
+    width: 100px;
+}
+
+.hero-img {
+    background-image: url("https://d28wuw2qq2j212.cloudfront.net/sites/default/files/styles/basic_page_header_desktop/public/destinations/city_scape_photo_credit_fredericton_tourism.jpg?itok=m5rvRPPP");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+h1 {
+    background: #457B9D;
+    color: #F1FAEE;
+    padding: 0px 10px;
+    border-radius: 5px;
+    font-size: 28px;
+    margin: 20px 0px 10px 0px;
+}
+
+h2 {
+    background: #1D3557;
+    font-size: 14px;
+    color: #F1FAEE;
+    width: 350px;
+    border-radius: 5px;
+    margin: 0px;
+    padding: 5px 0px;
+}
+
+.activities-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.activities {
+    background: #F1FAEE;
+    margin: 0px 0px 0px 0px;
+}
+
+h3 {
+    margin: 0px;
+    padding: 20px 0px;
+    font-weight: bold;
+}
+
+.round {
+    border-radius: 50%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.round:hover {
+    border: 2px solid red;
+}
+
+.blue-font {
+    color: #1D3557;
+}
+
+.activities-desc-p{
+    width: 200px;
+}
+
+.card {
+    background: #B1E5EB;
+    width: 350px;
+    height: 200px;
+    margin: 40px auto;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 0px 5px #404E7C;
+    
+}
+
+.card:hover {
+    background: red;
+}
+
+.card-pic {
+    margin: 10px;
+    object-fit: cover;
+    width: 120px;
+    border-radius: 5px;
+}
+
+.card-desc-p{
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+.card-desc{
+    margin: 10px 10px 10px;
+}
